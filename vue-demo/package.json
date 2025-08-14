@@ -1,0 +1,18 @@
+{
+  "name": "label-designer-vue-demo",
+  "version": "1.0.0",
+  "description": "Vue.js demo application for the Label Designer wrapper",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "@label-designer/vue-wrapper": "file:../vue-wrapper"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.0",
+    "vite": "^4.3.0"
+  }
+}
