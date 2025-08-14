@@ -16,7 +16,11 @@
     "angular",
     "angular-cdk",
     "bootstrap",
-    "javascript"
+    "javascript",
+    "vue",
+    "vue3",
+    "vue-wrapper",
+    "label-designer"
   ],
   "license": "MIT",
   "peerDependencies": {

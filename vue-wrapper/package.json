@@ -1,0 +1,51 @@
+{
+  "name": "@label-designer/vue-wrapper",
+  "version": "3.2.0",
+  "description": "Vue.js wrapper for the Angular Label Designer component",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "npm run build -- --watch",
+    "test": "echo \"Tests not implemented yet\" && exit 0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "label-designer",
+    "angular-wrapper",
+    "printable-labels"
+  ],
+  "author": "Vue.js wrapper for label-designer",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "@angular/core": "^15.0.0",
+    "@angular/common": "^15.0.0",
+    "@angular/elements": "^15.0.0",
+    "@angular/platform-browser": "^15.0.0",
+    "@angular/platform-browser-dynamic": "^15.0.0",
+    "@angular/cdk": "^15.0.0",
+    "angularx-qrcode": "^1.5.1",
+    "jszip": "^3.2.0",
+    "file-saver": "^2.0.0",
+    "ngx-webstorage": "^3.0.2",
+    "xlsx": "0.13.2",
+    "ngx-bootstrap": "^9.0.0",
+    "label-designer": "^3.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.0.0",
+    "typescript": "^4.9.0",
+    "vue": "^3.2.0"
+  }
+}
